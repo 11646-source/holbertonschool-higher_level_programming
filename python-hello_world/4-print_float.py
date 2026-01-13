@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-number = 3.14159
-print(f"{number:.2f}")
+"""
+Print a positive float with two decimal places.
+"""
+
+number = 333.12
+print(f"Float: {number:.2f}")
