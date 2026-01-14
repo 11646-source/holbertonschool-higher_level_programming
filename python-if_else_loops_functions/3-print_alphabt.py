@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for alpha_letters in range(ord('a'), ord('z')+1):
-    if alpha_letters == 'e' or alpha_letters == 'q':
-    print("{:c}".format(alpha_letters), end="")
+for i in range(97, 123):
+    if i not in (101, 113):
+        print("{:c}".format(i), end="")
+
