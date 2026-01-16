@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 def print_last_digit(number):
     #Get the last digit using modulus
     last = abs(number) % 10
