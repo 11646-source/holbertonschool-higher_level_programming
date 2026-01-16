@@ -2,5 +2,6 @@
 def print_last_digit(number):
     #Get the last digit using modulus
     last = abs(number) % 10
-    print(last)
+    import sys
+    sys.stdout.write(str(last))
     return last
