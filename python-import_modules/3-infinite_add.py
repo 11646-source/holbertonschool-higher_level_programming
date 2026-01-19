@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-import sys
-def main():
-    if len(sys.argv) <= 1:
-        print(0)
-        return
+def infinite_add(args):
     total = 0
-    for arg in sys.argv[1:]:
-        total += int(arg)
-    print(total)
+    for num in args:
+        total += int(num)
+    return total
 if __name__ == "__main__":
-    main()
+    import sys
+    print(infinite_add(sys.argv[1:]))
