@@ -1,5 +1,5 @@
--- Script to list all genres of the show Dexter
--- Usage: mysql -u <username> -p <database_name> < script.sql
+-- Lists all genres of the show Dexter
+-- Usage: mysql -u root -p <database_name> < 14-my_genres.sql
 
 SELECT g.name AS genre
 FROM tv_genres g
