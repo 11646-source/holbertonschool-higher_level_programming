@@ -1,6 +1,8 @@
--- Script: 11-list_shows.sql
--- Lists all shows contained in the database htbn_0d_tvshows
+-- Lists all shows contained in hbtn_0d_tvshows that have at least one genre linked
+-- Each record shows: tv_shows.title - tv_show_genres.genre_id
+-- Results are sorted in ascending order by tv_shows.title and tv_show_genres.genre_id
 
-SELECT tv_shows.title
-FROM tv_shows
-ORDER BY tv_shows.title ASC;
+SELECT tv_shows.title, tv_show_genres.genre_id
+FROM tv_shows, tv_show_genres
+WHERE tv_shows.id = tv_show_genres.show_id
+ORDER BY tv_shows.title ASC, tv_show_genres.genre_id ASC;
