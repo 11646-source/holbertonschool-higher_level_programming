@@ -1,3 +1,3 @@
 #!/usr/bin/node
-const myVar = 89;
+const myVar = 12;
 console.log(myVar);
