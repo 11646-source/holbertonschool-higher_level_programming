@@ -1,0 +1,23 @@
+File: 2-matrix_divided.py
+Function: matrix_divided(matrix, div)
+
+Description:
+This function divides all elements of a matrix by a given number. 
+It returns a new matrix where each element is rounded to 2 decimal places.
+
+Arguments:
+- matrix: must be a list of lists of integers or floats
+- div: must be a number (integer or float)
+
+Return:
+- A new matrix with each element divided by div, rounded to 2 decimal places
+
+Exceptions:
+- TypeError: if matrix is not a list of lists of integers/floats
+- TypeError: if each row of the matrix is not the same size
+- TypeError: if div is not a number
+- ZeroDivisionError: if div is equal to 0
+
+Notes:
+- The original matrix is not modified; a new matrix is returned.
+- No modules may be imported in the implementation.
