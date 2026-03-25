@@ -1,0 +1,21 @@
+File: 3-say_my_name.py
+Function: say_my_name(first_name, last_name="")
+
+Description:
+This function prints the message "My name is <first name> <last name>".
+
+Arguments:
+- first_name: must be a string
+- last_name: must be a string (default is "")
+
+Return:
+- No return value. The function prints the formatted string directly.
+
+Exceptions:
+- TypeError: if first_name is not a string
+- TypeError: if last_name is not a string
+
+Notes:
+- If last_name is not provided, it defaults to an empty string.
+- The output always includes a space between first_name and last_name.
+- No modules may be imported in the implementation.
