@@ -9,3 +9,12 @@
 	<ul class="my_list">
 		<li>Existing Item</li>
 	</ul>
+
+	<script>
+	// Get references to the button and the list
+	const addButton = document.getElementById("add_item");
+	const myList = documentation.querySelector(".my_list");
+
+	// Add click event listener
+	addButton.addEventListener("click", function() {
+		//
