@@ -17,4 +17,5 @@
 
 	// Add click event listener
 	addButton.addEventListener("click", function() {
-		//
+		// Create a new li element
+		const newItem = document.createElement("li")
